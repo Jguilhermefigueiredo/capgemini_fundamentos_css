@@ -1,3 +1,37 @@
 html{
-    color: rgba(red, green, blue, alpha);
+    /*color: rgba(red, green, blue, alpha);*/
+    color: rgba(0, 0, 237, 1); /*padrão rgb, 0-255(tons de cor), alpha 0-1, 
+                                  para escolher a cor e transparência*/
+    background-color: #0000;
+    background-image: url("joia.png");/*a imagem não necessita da url toda
+                                        pois encontra-se na mesma pasta do arquivo
+                                        css*/
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+   
+
 }
+/*
+/* main{ /*sobrepõe o html*/
+/*     background-color: #fff;
+/* }
+/* .titulo-aula{/*sobrepõe o main*/
+/*     background-color: chartreuse;
+/* }
+*/
+/*html {
+    color: #FF0000;
+            # 0F 0F 0F -> hexadecimal como no rgb, dois primeiros dígitos
+            vermelho, segundos verde, terceiros azul, sendo que a letra vai
+            de A-F e números de 0-9. Temos calculadoras de cor na internet
+            com os valores hexadecimais.
+}*/
+/*
+background-color: define a cor do fundo
+background-image: define a imagem de fundo
+background-repeat: quando se há uma imagem de fundo, se essa imagem se repete
+background-position: posição do fundo, com repetição ou não
+background-size: tamanho do fundo que apresenta
+*/
