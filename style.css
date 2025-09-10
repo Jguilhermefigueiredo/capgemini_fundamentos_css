@@ -1,0 +1,41 @@
+h1{
+    color: brown;
+}
+main h1{
+    color: black;
+}
+h2{
+    color: green;
+   }
+.titulo-aula{ /* para referenciar a classe no css inicia-se '.nomeDaClasse'*/
+    text-decoration: underline;
+}
+p{
+    color: turquoise;
+}
+.texto-azul{
+    color: blue;
+}
+.texto-vermelho{
+    color: red;
+}
+#titulo-primeira-aula{/*'id' referencia-se com #*/
+    text-decoration: none;
+}
+#titulo-segunda-aula{
+    color: cadetblue;
+}
+.texto-vermelho .comentario{ /*o 'cometário' está dentro do texto vermelho*/
+    color: goldenrod;
+}
+.texto-vermelho.comentario{/* para este funcionar, tem que apresentar o texto vermelho e comentario*/ 
+    color: greenyellow;
+}
+.comentario{
+    color: purple;
+}
+/* tag somente nomeia
+    classe inicia com .
+    id inicia com # 
+*/
+/*quanto mais específico a instrução, maior a prioridade*/
