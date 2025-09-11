@@ -1,0 +1,23 @@
+/*
+font-family:
+font-face:
+font-style: muda o estilo da fonte
+font-variant: varia a fonte
+font-weight: corpo da fonte, negrito, escrita fina, etc 
+font-size:tamanho da fonte na tela
+*/
+@font-face{
+    font-family: alexbrush;
+    src: url("AlexBrush-Regular.ttf"); /* fonte baixada, caso não use uma
+    padrão, tem que especificar, "como uma imagem"*/
+}
+main{
+    font-family: alexbrush, cursive; /*caso não renderize a fonte fornecida,
+                                      tem-se uma segunda opção.*/
+    font-style: oblique,italic; /*oblique, contrário ao itálico, colocar outra 
+                                 opção, pode-se que a fonte não tenha outros estilos*/
+    font-weight: 900; /*negrito, gradação, vai de 100 - 900, palavras-chave: 
+                        bold, bolder, lighter, padrao */
+    font-variant: small-caps; 
+    font-size: 1.5rem; /* ou 24px*/
+}
