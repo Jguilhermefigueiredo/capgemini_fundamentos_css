@@ -1,0 +1,20 @@
+main{
+    text-indent: 2rem; /*espaçamento*/
+    
+}
+main p{
+    text-indent: 2rem;
+    text-align: left;
+}
+h1, h2{
+    text-align: center;
+}
+.texto-azul{
+    text-decoration: line-through;
+}
+.texto-vermelho{
+    letter-spacing: 0.5rem; /*espaçamento entre os caracteres*/
+}
+/* texto justificado não é recomendado, dificulta a leitura para algumas
+pessoas. Acessibilidade para dificuldade visual e tdha*/
+/*text-decoration: underline, overline, line-through

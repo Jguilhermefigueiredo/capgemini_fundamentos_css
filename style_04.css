@@ -1,0 +1,16 @@
+a{
+    color:blue;
+}
+a:active{ /*active é um pseudoseletor, que vai referir ao link não clicado*/
+    color:brown;/*muda a cor do link, porém o azul sublinhado já e um 
+                    padrão.*/
+    cursor: crosshair;/*muda o cursor do mouse*/
+}
+a:visited{
+    color: chocolate;
+    cursor: cell;
+}
+a:hover{ /*passando o cursor sobre o link*/
+    color: aqua;
+}
+/*pseudoseletores, são definidos dentro do css*/
